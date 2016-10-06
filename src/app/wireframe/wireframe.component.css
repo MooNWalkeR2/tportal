@@ -1,0 +1,18 @@
+
+
+
+span{
+    clear:both;
+    float:left;
+}
+
+.even{
+    display:hidden;
+    height:10px;
+}
+
+svg{
+    float:left;
+    margin:0px;
+    padding:0px;
+}

@@ -1,0 +1,13 @@
+
+
+app-hexagon{
+    width:80px;
+    height:80px;
+    margin-left:15px;
+    float:left;
+    margin-top:15px;
+}
+
+.can-draggable{
+    background-clip:content-box;
+}

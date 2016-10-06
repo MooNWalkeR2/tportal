@@ -1,0 +1,78 @@
+
+
+.interaction-block{
+    width:100%;
+    height:450px;
+}
+
+.footer-div{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:130px;
+    background-color:#eaeaea;
+    display:none;
+}
+
+.interaction-block div{
+    display:inline-block;
+}
+
+.interaction-data{
+    position:relative;
+    top:0px;
+    left:0px;
+    width:96%;
+    height:inherit;
+    margin:2%;
+}
+
+app-wireframe{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:inherit;
+}
+
+app-markedhexagon{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:inherit;
+    z-index:1;
+}
+
+.interaction-side-nav{
+    width:16%;
+    height:inherit;
+    margin:2%;
+    background-color:#eaeaea;
+    display:none;
+}
+
+app-interactivebottom{
+    position:absolute;
+    width:50px;
+    height:50px;
+    bottom:0;
+    width:100%;
+    height:120px;
+    background-color:transparent;
+    z-index:2;
+}
+
+#drop-area{
+    position:absolute;
+    top:150px;
+    left:400px;
+    width:500px;
+    height:300px;
+    background-color:transparent;
+    z-index:3;
+}
+
+.drag-drop{
+    opacity:0.5;
+}

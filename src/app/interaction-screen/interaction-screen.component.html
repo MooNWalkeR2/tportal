@@ -1,0 +1,26 @@
+
+
+
+
+
+<div class="interaction-block" >
+
+
+    <div class="interaction-data">
+        <app-wireframe [hexWidth]="hexWidth" [hexHeight]="hexHeight" [wireframeHexNo]="wireframeHexNo"></app-wireframe>
+        <app-markedhexagon  [markedhexagons]="markedhexagons" [hexWidth]="hexWidth"  id="interactive-marked-hexagon"></app-markedhexagon>
+        <app-interactivebottom (notify)="onDragStart($event)"></app-interactivebottom>
+
+    </div>
+
+    <div id="drop-area" droppable></div>
+
+    <div class="interaction-side-nav">
+
+    </div>
+</div>
+
+<div class="footer-div">
+
+</div>
+

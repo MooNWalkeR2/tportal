@@ -1,0 +1,21 @@
+
+
+<div id="main-div">
+    <div [attr.width]="hexWidth" [attr.height]="hexWidth" preserveAspectRatio="none"  *ngFor="let hex of markedhexagons" [attr.id]="'clone-hex-'+hex.no" class="hex-div">
+        <svg [attr.width]="hexWidth" [attr.height]="hexWidth" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <polygon fill="#64C7CC"
+                     fill-opacity="1"
+                     stroke="#1a1a1a"
+                     stroke-width="1"
+                     stroke-linecap="round"
+                     stroke-dasharray="1.5,3"
+                     stroke-opacity="0.0"
+                     points="50 5 95 27 95 73 50 95 5 73 5 27">
+            </polygon>
+
+        </svg>
+        <div  [style.height.px]="hexWidth" [style.width.px]="hexWidth" class="text-wrapper">
+            <span class="hex-text">45678Lac <br> Lesee</span>
+        </div>
+    </div>
+</div>
